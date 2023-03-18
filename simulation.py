@@ -31,7 +31,7 @@ alpha = 0.85
 # Supply your own graph to test
 # The format of the data must be:
 # # Comments preceded by #
-# i\wj\n for an edge from j to i
+# A line containing i j\n for an edge from j to i
 N = 1000
 graph = np.zeros((N, N))
 
